@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,500&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.curriculo {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.nome {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.dados {
+    margin-top: 20px;
+}
+
+.dados h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.dados p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.educacao, .experiencia {
+    margin-top: 20px;
+}
+
+.educacao h3, .experiencia h3 {
+    font-size: 18px;
+    color: #007BFF;
+}
